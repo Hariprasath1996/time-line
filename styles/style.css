@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 15px;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: cadetblue;
+}
+.box{
+  width: 80vw;
+  height: 100vh;
+  background-color: darkgray;
+}
+
+.card{
+  width: 35%;
+  height:100px;
+  background-color: ghostwhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-left: 10rem;
+}
+.box .card-two{
+ width: 70%;
+ left: 35%;
+}
